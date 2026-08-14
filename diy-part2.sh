@@ -12,8 +12,8 @@ make defconfig
 
 # 3. 添加自定义软件包
 echo "CONFIG_TARGET_mediatek=y" >> .config
-echo "CONFIG_TARGET_mediatek_mt7981=y" >> .config
-echo "CONFIG_TARGET_mediatek_mt7981_DEVICE_h3c_magic-nx30-pro=y" >> .config
+echo "CONFIG_TARGET_mediatek_filogic=y" >> .config
+echo "CONFIG_TARGET_mediatek_filogic_DEVICE_h3c_magic-nx30-pro=y" >> .config
 
 echo "CONFIG_PACKAGE_luci=y" >> .config
 echo "CONFIG_PACKAGE_luci-ssl=y" >> .config
