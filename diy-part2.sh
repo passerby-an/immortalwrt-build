@@ -18,3 +18,6 @@
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+
+# Modify HomeProxy dependency to sing-box-full
+sed -i 's/+sing-box/+sing-box-full/g' package/feeds/luci/luci-app-homeproxy/Makefile
