@@ -25,6 +25,7 @@ echo "CONFIG_PACKAGE_kmod-mtd-rw=y" >> .config
 echo "CONFIG_PACKAGE_luci-i18n-homeproxy-zh-cn=y" >> .config
 echo "CONFIG_PACKAGE_luci-i18n-openclash-zh-cn=y" >> .config
 echo "CONFIG_PACKAGE_luci-i18n-argon-config-zh-cn=y" >> .config
+echo "CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y" >> .config
 echo "CONFIG_PACKAGE_sing-box-full=y" >> .config
 echo "CONFIG_PACKAGE_zram-swap=y" >> .config
 
