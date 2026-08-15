@@ -19,8 +19,12 @@ echo "CONFIG_PACKAGE_luci=y" >> .config
 echo "CONFIG_PACKAGE_luci-ssl=y" >> .config
 echo "CONFIG_PACKAGE_luci-app-homeproxy=y" >> .config
 echo "CONFIG_PACKAGE_luci-app-openclash=y" >> .config
+echo "CONFIG_PACKAGE_ttyd=y" >> .config
+echo "CONFIG_PACKAGE_luci-theme-argon=y" >> .config
+echo "CONFIG_PACKAGE_kmod-mtd-rw=y" >> .config
 echo "CONFIG_PACKAGE_luci-i18n-homeproxy-zh-cn=y" >> .config
 echo "CONFIG_PACKAGE_luci-i18n-openclash-zh-cn=y" >> .config
+echo "CONFIG_PACKAGE_luci-i18n-argon-config-zh-cn=y" >> .config
 echo "CONFIG_PACKAGE_sing-box-full=y" >> .config
 echo "CONFIG_PACKAGE_zram-swap=y" >> .config
 
